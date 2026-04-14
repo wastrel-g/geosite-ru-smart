@@ -22,9 +22,9 @@ domain:deezer.com
 domain:dzcdn.net
 
 # ═══ SoundCloud ═══
+# (sc-cdn.net belongs to Snapchat, not SoundCloud — kept in rkn-social.)
 domain:soundcloud.com
 domain:sndcdn.com
-domain:sc-cdn.net
 
 # ═══ Pandora ═══
 domain:pandora.com

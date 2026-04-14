@@ -3,10 +3,17 @@
 # Note: we do NOT block AppsFlyer/Firebase/Adjust etc. because they're required by RF apps
 
 # ═══ Ad networks ═══
-domain:doubleclick.net
+# NOTE: we target doubleclick.net ad-specific subdomains (not the whole domain)
+# so we don't accidentally shadow stats.g.doubleclick.net which RF banks' GA
+# configs use and which lives in ru-scanners → direct.
+full:googleads.g.doubleclick.net
+full:pubads.g.doubleclick.net
+full:securepubads.g.doubleclick.net
+full:ad.doubleclick.net
+full:cm.g.doubleclick.net
+full:fundingchoicesmessages.google.com
 domain:googleadservices.com
 domain:googlesyndication.com
-domain:googletagservices.com
 domain:adsystem.com
 domain:adservice.google.com
 domain:adnxs.com
@@ -29,7 +36,17 @@ domain:adtech.com
 domain:revcontent.com
 domain:mgid.com
 domain:yieldmo.com
-domain:advertising.com
+domain:smartadserver.com
+domain:casalemedia.com
+domain:contextweb.com
+domain:33across.com
+domain:rlcdn.com
+domain:krxd.net
+domain:rfihub.com
+domain:bidswitch.net
+domain:bluekai.com
+domain:agkn.com
+domain:turn.com
 
 # ═══ Windows telemetry ═══
 domain:settings-win.data.microsoft.com
@@ -45,14 +62,16 @@ domain:spynet.microsoft.com
 domain:v10.vortex-win.data.microsoft.com
 
 # ═══ Known trackers NOT used by RF banking apps ═══
+# NOTE: fullstory/smartlook/logrocket are NOT here — they moved to ru-scanners
+# because RF apps use them as anti-fraud signal. We only block heatmap-class
+# trackers here (hotjar/clicktale/inspectlet/crazyegg/mouseflow).
 domain:hotjar.com
-domain:fullstory.com
 domain:clicktale.net
 domain:inspectlet.com
-domain:smartlook.com
-domain:logrocket.com
 domain:crazyegg.com
 domain:mouseflow.com
+domain:luckyorange.com
+domain:mixpanel-tracker.com
 
 # ═══ Mail.ru specific ads (not trackers used by banks) ═══
 domain:ad.mail.ru

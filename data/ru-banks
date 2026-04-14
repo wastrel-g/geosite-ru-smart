@@ -18,8 +18,6 @@ domain:sberpay.ru
 domain:sberinvest.ru
 domain:sberbankinsurance.ru
 domain:sberhealth.ru
-domain:sbermarket.ru
-domain:sbermegamarket.ru
 domain:sber-solutions.com
 domain:sberbank-online.ru
 domain:sberdevices.ru
@@ -136,7 +134,7 @@ domain:mtsbank.ru
 domain:mtsdengi.ru
 
 # ─── Ozon Bank ───
-domain:ozonbank.ru
+# NOTE: ozonbank.ru lives in data/ru-marketplaces (Ozon umbrella)
 domain:finance.ozon.ru
 
 # ─── YooMoney / Yandex.Money ───
@@ -170,8 +168,8 @@ domain:homecredit.ru
 domain:pogostrah.ru
 
 # ─── Yandex Bank ───
+# NOTE: yandex-bank.net already covered by the broader Yandex block in ru-ecosystem.
 domain:bank.yandex.ru
-domain:yandex-bank.net
 
 # ─── AK BARS ───
 domain:akbars.ru
@@ -218,21 +216,20 @@ domain:spasibosberbank.ru
 domain:spasibo.sberbank.ru
 
 # ─── Other мелкие/региональные (from CBR snapshot) ───
+# NOTE: gosuslugi.ru lives in data/ru-gov; domclick.ru lives in data/ru-ecosystem
 domain:spvb.ru
 domain:baltbank.ru
 domain:banki.ru
 domain:bankline.ru
-domain:domclick.ru
-domain:gosuslugi.ru
 
 # ─── Payment systems ───
+# NOTE: cbr.ru lives in data/ru-gov (central bank is a government body)
 domain:mir.ru
 domain:mirconnect.ru
 domain:mirpay.ru
 domain:mirpayonline.ru
 domain:nspk.ru
 domain:sbp.nspk.ru
-domain:cbr.ru
 domain:moex.com
 
 # ─── BKIs (credit bureaus) ───

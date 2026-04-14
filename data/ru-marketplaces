@@ -67,11 +67,11 @@ domain:x5q.ru
 domain:tsx.x5static.net
 
 # ═══ Magnit / Lenta / Dixy / Victoria ═══
+# NOTE: lenta.com is the grocery retailer, distinct from lenta.ru (news, in ru-ecosystem).
 domain:magnit.ru
 domain:lenta.com
 domain:dixy.ru
 domain:victoria-group.ru
-domain:vkusvill.ru
 
 # ═══ DNS-shop / DNS / Citilink / Eldorado / M.Video / Svyaznoy ═══
 domain:dns-shop.ru
@@ -94,7 +94,6 @@ domain:auchan.ru
 domain:metro-cc.ru
 domain:metronom.ru
 domain:miratorg.ru
-domain:vkusvill.ru
 
 # ═══ Fashion / cosmetics ═══
 domain:letu.ru
@@ -103,7 +102,6 @@ domain:ile-de-beaute.ru
 domain:rendez-vous.ru
 domain:petrovich.ru
 domain:maxidom.ru
-domain:ozon.travel
 domain:wb-travel.ru
 
 # ═══ Specialty ═══

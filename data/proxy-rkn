@@ -10,7 +10,12 @@ include:rkn-vpn-info
 # include:rkn-adult       # uncomment if you want to route adult sites
 
 # v2fly stock — RKN-blocked or unstable
+# NOTE: google-play intentionally NOT here — it lives in direct-ru because
+# Android Play Services do device attestation, and if Play Store sees an NL
+# IP while the device is registered in RU it can invalidate device checks
+# (Play Integrity, Play Protect). Purchases don't work from RF either way
+# (Google blocks RF cards), so proxying google-play gains nothing and breaks
+# the OS. Keep it direct.
 include:youtube
 include:telegram
-include:google-play
 include:github

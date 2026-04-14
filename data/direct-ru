@@ -17,6 +17,7 @@ include:microsoft
 include:apple
 include:steam
 include:twitch
+include:google-play
 
 # Keep these for RF gaming:
 include:epicgames

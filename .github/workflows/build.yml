@@ -36,6 +36,9 @@ jobs:
           cache: true
           cache-dependency-path: community/go.sum
 
+      - name: Check routing consistency
+        run: ./check-consistency.sh
+
       - name: Generate daily tag
         run: |
           echo "DAILY_TAG=$(date -u +%Y%m%d%H%M)" >> "$GITHUB_ENV"

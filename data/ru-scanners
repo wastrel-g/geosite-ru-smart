@@ -141,6 +141,17 @@ domain:smartcaptcha.yandex.com
 
 # ═══ Push notifications infrastructure (must work for app to be "alive") ═══
 
+# Android Play Services / SafetyNet / Play Integrity (device attestation)
+# If these go through proxy, Play Integrity fails → banking apps refuse to start
+domain:android.clients.google.com
+domain:safebrowsing.google.com
+domain:play-services.googleapis.com
+domain:deviceintegritytokens-pa.googleapis.com
+domain:instantmessaging-pa.googleapis.com
+domain:checkin.googleapis.com
+domain:clients3.google.com
+domain:clients4.google.com
+
 # Firebase Cloud Messaging — 90%+ РФ apps rely on this for push
 domain:fcm.googleapis.com
 domain:mtalk.google.com
@@ -166,8 +177,7 @@ domain:firebasestorage.googleapis.com
 domain:firebasedynamiclinks.googleapis.com
 
 # Apple Push Notifications — для iOS
-domain:push.apple.com
-domain:courier.push.apple.com
+# NOTE: detailed courier-1..50 list lives in data/ru-apple-push; don't duplicate here.
 
 # Huawei Push (Honor/Huawei devices)
 domain:push.hicloud.com
@@ -221,10 +231,12 @@ domain:everesttech.net
 # ═══ Analytics (Google/Yandex/RF) ═══
 
 # Google Analytics — used by Сбер, WB, Ozon, Тинькофф
+# NOTE: googletagservices.com removed — it's ad serving, not analytics
+# (it's in block-ads). googletagmanager.com stays because some RF banks
+# load GTM for fingerprint/auth flows, not just ads.
 domain:google-analytics.com
 domain:analytics.google.com
 domain:googletagmanager.com
-domain:googletagservices.com
 domain:www.google-analytics.com
 domain:stats.g.doubleclick.net
 domain:ssl.google-analytics.com
@@ -261,7 +273,6 @@ domain:appmetrica.yandex.ru
 domain:appmetrica.yandex.net
 domain:startup.mobile.yandex.net
 domain:report.appmetrica.yandex.net
-domain:startup.mobile.yandex.net
 
 # Mail.ru MyTracker
 domain:mytracker.mail.ru
@@ -305,13 +316,11 @@ domain:infobip.com
 domain:dialogflow.com
 domain:zcdn.com
 
-# ═══ E-signature / notarization (RF banks require these) ═══
-domain:goskey.ru
+# ═══ E-signature / notarization ═══
+# NOTE: goskey.ru, nalog.ru, uc1.nalog.ru are in data/ru-gov — don't duplicate.
 domain:cryptopro.ru
 domain:kontur.ru
 domain:kontur-ca.ru
-domain:nalog.ru
-domain:uc1.nalog.ru
 domain:iecp.ru
 domain:reestr-pki.ru
 domain:cpca.ru

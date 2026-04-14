@@ -44,12 +44,11 @@ domain:yastat.net
 domain:yastatic-net.ru
 domain:yandexwebcache.net
 domain:yandexwebcache.org
-domain:yandexmetrica.com
+# yandexmetrica.com → ru-scanners (analytics), not here
 domain:yandexadexchange.net
 domain:naydex.net
 domain:clstorage.net
 domain:turbopages.org
-domain:kinopoisk.ru
 domain:kp.ru
 domain:rambler.ru
 domain:dzen.ru
@@ -158,13 +157,12 @@ domain:ntv.ru
 domain:rentv.ru
 domain:ren.tv
 
-# ═══ Major RF media / news ═══
+# ═══ Major RF media / news (lenta.com → ru-marketplaces, different business) ═══
 domain:rbc.ru
 domain:iz.ru
 domain:gazeta.ru
 domain:kommersant.ru
 domain:lenta.ru
-domain:lenta.com
 domain:47news.ru
 domain:aif.ru
 domain:tass.ru
@@ -173,15 +171,9 @@ domain:rg.ru
 domain:russian.rt.com
 domain:rt.com
 
-# ═══ Mobility / Delivery ═══
+# ═══ Mobility (transport only; delivery/shops live in ru-marketplaces) ═══
 domain:taxi.yandex.ru
 domain:yango.yandex.com
-domain:citydrive.ru
-domain:samokat.ru
-domain:whoosh.bike
-domain:delivery-club.ru
-domain:dodopizza.ru
-domain:vkusnoitochka.ru
 domain:taximaxim.ru
 domain:taxsee.com
 domain:rzd.ru
@@ -201,11 +193,9 @@ domain:hh.ru
 domain:superjob.ru
 domain:rabota.ru
 
-# ═══ Real estate ═══
+# ═══ Real estate (avito.* lives in ru-marketplaces) ═══
 domain:cian.ru
 domain:domclick.ru
-domain:avito.ru
-domain:avito.st
 domain:realty.ya.ru
 domain:realty.yandex.ru
 domain:youla.io
@@ -252,8 +242,7 @@ domain:gett.com
 domain:urent.ru
 domain:lift.taxi
 
-# ═══ DevOps / Cloud RF ═══
-domain:yandex.cloud
+# ═══ DevOps / Cloud RF (yandex.cloud covered above) ═══
 domain:cloud.ru
 domain:selectel.ru
 domain:timeweb.ru

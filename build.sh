@@ -11,6 +11,9 @@ WORK=/tmp/geosite-ru-smart-build
 rm -rf "$WORK"
 mkdir -p "$WORK"
 
+echo "==> Checking routing consistency (no shadowed entries)..."
+"$REPO_DIR/check-consistency.sh"
+
 echo "==> Cloning v2fly/domain-list-community builder..."
 git clone --depth 1 https://github.com/v2fly/domain-list-community.git "$WORK/community"
 

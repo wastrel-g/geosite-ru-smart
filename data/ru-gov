@@ -80,9 +80,7 @@ domain:rts-tender.ru
 domain:zakupki.gov.ru
 domain:roseltorg.ru
 
-# ═══ Regional government (key regions) ═══
-domain:mos.ru
-domain:mosreg.ru
+# ═══ Regional government (key regions; mos.ru and mosreg.ru appear above) ═══
 domain:spb.ru
 domain:gov.spb.ru
 domain:sevastopol.ru
