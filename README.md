@@ -49,7 +49,7 @@ Curated geosite.dat for Russian users — built on top of v2fly/domain-list-comm
   "Name": "RU-smart",
   "GlobalProxy": "true",
   "RouteOrder": "block-proxy-direct",
-  "Geositeurl": "https://github.com/YOUR_USERNAME/geosite-ru-smart/releases/latest/download/geosite.dat",
+  "Geositeurl": "https://github.com/wastrel-g/geosite-ru-smart/releases/latest/download/geosite.dat",
   "Geoipurl": "https://github.com/hydraponique/roscomvpn-geoip/releases/latest/download/geoip.dat",
   "DirectSites": ["geosite:direct-ru"],
   "DirectIp":    ["geoip:private", "geoip:direct"],
@@ -73,8 +73,8 @@ Curated geosite.dat for Russian users — built on top of v2fly/domain-list-comm
 Pushes to `main` trigger a build. A daily cron also rebuilds to pick up v2fly/domain-list-community upstream updates.
 
 Release URL pattern:
-- Latest: `https://github.com/YOUR_USERNAME/geosite-ru-smart/releases/latest/download/geosite.dat`
-- Pinned: `https://github.com/YOUR_USERNAME/geosite-ru-smart/releases/download/YYYYMMDDHHMM/geosite.dat`
+- Latest: `https://github.com/wastrel-g/geosite-ru-smart/releases/latest/download/geosite.dat`
+- Pinned: `https://github.com/wastrel-g/geosite-ru-smart/releases/download/YYYYMMDDHHMM/geosite.dat`
 
 ## Contributing
 

@@ -9,7 +9,7 @@
   "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "https://github.com/hydraponique/roscomvpn-geoip/releases/latest/download/geoip.dat",
-  "Geositeurl": "https://github.com/YOUR_USERNAME/geosite-ru-smart/releases/latest/download/geosite.dat",
+  "Geositeurl": "https://github.com/wastrel-g/geosite-ru-smart/releases/latest/download/geosite.dat",
   "LastUpdated": "4070905200",
   "DnsHosts": {
     "lkfl2.nalog.ru": "213.24.64.175",
