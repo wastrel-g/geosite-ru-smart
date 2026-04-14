@@ -12,11 +12,14 @@ domain:ozon.travel
 
 # ═══ Wildberries ═══
 domain:wildberries.ru
+domain:wildberries.by
+domain:wildberries.kz
 domain:wb.ru
 domain:wbstatic.net
 domain:wbbasket.ru
 domain:wbbasket.net
-domain:wbstatic.net
+domain:wbx-content.wbstatic.net
+domain:wb-api.ru
 
 # ═══ Avito ═══
 domain:avito.ru
@@ -70,11 +73,42 @@ domain:dixy.ru
 domain:victoria-group.ru
 domain:vkusvill.ru
 
-# ═══ DNS-shop / DNS / Citilink / Eldorado / M.Video ═══
+# ═══ DNS-shop / DNS / Citilink / Eldorado / M.Video / Svyaznoy ═══
 domain:dns-shop.ru
 domain:citilink.ru
 domain:eldorado.ru
 domain:mvideo.ru
+domain:svyaznoy.ru
+domain:technopark.ru
+
+# ═══ Sportmaster / DetMir / etc — additions ═══
+domain:sportmaster.ru
+domain:sportmaster.by
+domain:sportmaster.kz
+domain:detmir.ru
+domain:detmir-kids.ru
+domain:chitai-gorod.ru
+domain:labirint.ru
+domain:book24.ru
+domain:auchan.ru
+domain:metro-cc.ru
+domain:metronom.ru
+domain:miratorg.ru
+domain:vkusvill.ru
+
+# ═══ Fashion / cosmetics ═══
+domain:letu.ru
+domain:goldapple.ru
+domain:ile-de-beaute.ru
+domain:rendez-vous.ru
+domain:petrovich.ru
+domain:maxidom.ru
+domain:ozon.travel
+domain:wb-travel.ru
+
+# ═══ Specialty ═══
+domain:ikea.ru
+domain:hoff.ru
 
 # ═══ Auto ═══
 domain:auto.ru

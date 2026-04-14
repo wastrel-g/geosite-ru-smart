@@ -120,7 +120,7 @@ domain:yougetsignal.com
 domain:speed.cloudflare.com
 
 # ═══ Browser / system fingerprint test sites ═══
-domain:browserleaks.com
+# (browserleaks.com already listed above)
 domain:am.i.whitelabel.com
 domain:amiunique.org
 domain:coveryourtracks.eff.org
@@ -132,3 +132,11 @@ domain:browserscan.net
 domain:pixelscan.net
 domain:ipcheck.ing
 domain:cleantalk.org
+
+# ═══ Network speed / connectivity probes (often paired with IP-checks) ═══
+domain:fast.com
+domain:speedtest.net
+domain:speedcheck.org
+domain:nperf.com
+domain:check-host.net
+domain:whatleaks.com

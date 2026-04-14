@@ -184,6 +184,39 @@ domain:zenit-card.ru
 # ─── Uniastrum / Bank Vostok ───
 domain:bankvostok.ru
 
+# ─── Loko-Bank ───
+domain:lockobank.ru
+
+# ─── Absolut Bank ───
+domain:absolutbank.ru
+
+# ─── Bank St. Petersburg (БСПБ) ───
+domain:bspb.ru
+
+# ─── Credit Europe Bank ───
+domain:crediteurope.ru
+
+# ─── SMP Bank ───
+domain:smpbank.ru
+
+# ─── Avangard ───
+domain:avangard.ru
+
+# ─── Russian Standard ───
+domain:rsb.ru
+domain:bank.rsb.ru
+
+# ─── BankDom.RF ───
+domain:domrfbank.ru
+domain:dom.rf
+
+# ─── VEB.RF ───
+domain:veb.ru
+
+# ─── SberSpasibo / loyalty ───
+domain:spasibosberbank.ru
+domain:spasibo.sberbank.ru
+
 # ─── Other мелкие/региональные (from CBR snapshot) ───
 domain:spvb.ru
 domain:baltbank.ru

@@ -82,5 +82,24 @@ domain:redditstatic.com
 domain:medium.com
 domain:miro.medium.com
 
+# ═══ Bluesky ═══
+domain:bsky.app
+domain:bsky.social
+domain:bsky.network
+
+# ═══ Mastodon (fediverse hubs) ═══
+domain:mastodon.social
+domain:mastodon.online
+domain:mstdn.social
+domain:fosstodon.org
+domain:hachyderm.io
+
+# ═══ Tumblr ═══
+domain:tumblr.com
+
+# ═══ Quora ═══
+domain:quora.com
+domain:quoracdn.net
+
 # ═══ Pinterest (РКН enforced in 2024) ═══
 include:pinterest

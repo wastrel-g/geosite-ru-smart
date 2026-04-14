@@ -217,6 +217,40 @@ domain:dnevnik.ru
 domain:cscampus.ru
 domain:tilda.cc
 domain:getcourse.ru
+domain:uchi.ru
+domain:uchebnik.ru
+domain:mosedu.ru
+domain:resh.edu.ru
+domain:skysmart.ru
+domain:foxford.ru
+domain:sberclass.ru
+domain:yaklass.ru
+domain:interneturok.ru
+domain:coddy.ru
+domain:stepik.org
+domain:stepik.ru
+domain:netology.ru
+domain:skillbox.ru
+domain:skillfactory.ru
+domain:geekbrains.ru
+domain:skyeng.ru
+domain:puzzle-english.com
+
+# ═══ Audio (Сбер Звук, Яндекс.Музыка через yandex.*) ═══
+domain:zvuk.com
+domain:sber-zvuk.com
+
+# ═══ Book / content ═══
+domain:litres.ru
+domain:bookmate.com
+domain:storytel.com
+domain:storytel.ru
+
+# ═══ Taxi / mobility (дополнения) ═══
+domain:citymobil.ru
+domain:gett.com
+domain:urent.ru
+domain:lift.taxi
 
 # ═══ DevOps / Cloud RF ═══
 domain:yandex.cloud

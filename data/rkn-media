@@ -32,12 +32,14 @@ domain:npr.org
 # ═══ RFE/RL ═══
 domain:rferl.org
 domain:svoboda.org
+domain:svaboda.org
 domain:azathabar.com
 domain:currenttime.tv
 domain:krymr.com
 domain:idelreal.org
 domain:sibreal.org
 domain:severreal.org
+domain:realreal.org
 
 # ═══ VOA / US Gov media ═══
 domain:voanews.com
@@ -68,7 +70,26 @@ domain:bazamedia.ru
 domain:mediazona.ca
 domain:zona.media
 domain:rain.tv
-domain:currenttime.tv
+
+# ═══ Additional banned / foreign-agent-labeled Russian-language ═══
+domain:themoscowtimes.com
+domain:themoscowtimes.ru
+domain:thebell.io
+domain:verstka.media
+domain:holod.media
+domain:doxa.team
+domain:doxajournal.ru
+domain:sota.vision
+domain:sotavision.media
+domain:7x7-journal.ru
+domain:tv2.today
+domain:kasparov.ru
+domain:activatica.org
+domain:kedr.media
+domain:moloko.plus
+domain:projectmedia.com
+domain:newtimes.ru
+domain:realnoevremya.ru
 
 # ═══ UK Russian-language ═══
 domain:theguardian.com
@@ -87,10 +108,14 @@ domain:liberation.fr
 domain:france24.com
 domain:rfi.fr
 
-# ═══ Radio ═══
-domain:rferl.org
+# ═══ Pan-European / other ═══
+domain:euronews.com
+domain:politico.eu
+domain:politico.com
+domain:ft.com
+
+# ═══ Radio (rferl/svaboda already covered above) ═══
 domain:radio.by
-domain:svaboda.org
 
 # ═══ Encyclopedia (partially blocked) ═══
 domain:wikileaks.org

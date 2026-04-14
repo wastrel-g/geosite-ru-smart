@@ -42,6 +42,36 @@ domain:bnc.lt
 domain:singular.net
 domain:api-gateway.singular.net
 
+# OneSignal — push for thousands of RF apps
+domain:onesignal.com
+domain:os.tc
+
+# Braze — attribution + in-app messaging (used by РФ retail/fintech)
+domain:braze.com
+domain:braze.eu
+domain:appboy.com
+
+# CleverTap — push + session analytics
+domain:clevertap.com
+domain:wzrkt.com
+
+# Airship (ex-Urban Airship)
+domain:airship.com
+domain:urbanairship.com
+domain:asnapieu.com
+domain:asnapius.com
+
+# Iterable
+domain:iterable.com
+domain:iterable.email
+
+# MoEngage
+domain:moengage.com
+
+# Bytedance Pangle (Ads/AdTech but used for fingerprinting by some RF apps)
+domain:pangle.io
+domain:pglstatp-toutiao.com
+
 # Mixpanel (some SaaS products)
 domain:mixpanel.com
 domain:api.mixpanel.com
@@ -89,9 +119,13 @@ domain:pay-touch.com
 # ═══ Captchas (RF banks use these to verify humans) ═══
 
 # Google reCAPTCHA v2/v3 — used by Сбер, Госуслуги, WB
+# NOTE: recaptcha.net is the enterprise-dedicated host; the public one is at
+# google.com/recaptcha/ which cannot be addressed without path rules (v2fly
+# geosite is domain-only). We used to route all of google.com direct for this,
+# but it had huge side-effects (Gmail/Maps/Drive bypassing VPN). Recaptcha
+# works fine through proxy — accept the small latency hit.
 domain:recaptcha.net
-domain:google.com
-domain:gstatic.com
+domain:www.recaptcha.net
 
 # hCaptcha — used by some RF banks
 domain:hcaptcha.com
@@ -149,12 +183,40 @@ domain:resolver.msg.xiaomi.net
 domain:push.samsungosp.com
 domain:push-api.samsungosp.com
 
-# ═══ Crash reporting (if broken, apps may refuse to start) ═══
+# ═══ Crash reporting + observability (if broken, apps may refuse to start) ═══
 domain:crashlytics.com
 domain:sentry.io
 domain:app.bugsnag.com
 domain:notify.bugsnag.com
 domain:sessions.bugsnag.com
+domain:datadoghq.com
+domain:datadoghq.eu
+domain:ddog-gov.com
+domain:newrelic.com
+domain:nr-data.net
+domain:bam.nr-data.net
+
+# ═══ Session replay / behavioural fingerprinting — anti-fraud signal ═══
+# RF apps use these to detect fake sessions / bot activity
+domain:smartlook.com
+domain:smartlook.cloud
+domain:logrocket.com
+domain:lr-ingest.io
+domain:lr-in.com
+domain:fullstory.com
+domain:fs.com
+domain:posthog.com
+domain:hs-scripts.com
+domain:hsforms.com
+
+# ═══ Adobe Analytics / Adobe Experience Platform ═══
+# Used by some RF banks (ex-VTB, Raiffeisen integrations)
+domain:2o7.net
+domain:omtrdc.net
+domain:demdex.net
+domain:adobedtm.com
+domain:adobe.io
+domain:everesttech.net
 
 # ═══ Analytics (Google/Yandex/RF) ═══
 
