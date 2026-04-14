@@ -1,0 +1,45 @@
+# Gaming — route DIRECT (bandwidth saving + better latency)
+# Maintained by: @smyth
+
+include:steam
+include:epicgames
+include:riot
+include:origin
+include:escapefromtarkov
+include:faceit
+
+# Native RF games
+domain:warface.ru
+domain:warthunder.ru
+domain:1c-interest.ru
+domain:wargaming.net
+domain:worldoftanks.ru
+domain:worldofwarships.ru
+domain:crossout.net
+domain:blitz.mobi
+domain:lesta.ru
+domain:tanki.com
+domain:tanksblitz.ru
+domain:world-of-tanks.ru
+
+# Blizzard
+domain:battle.net
+domain:blizzard.com
+
+# EA
+domain:ea.com
+domain:ea-cdn.com
+domain:easports.com
+
+# Ubisoft
+domain:ubi.com
+domain:ubisoft.com
+domain:ubisoftconnect.com
+
+# GOG
+domain:gog.com
+domain:gog-statics.com
+
+# Unity / Unreal / game dev infra
+domain:unity3d.com
+domain:unrealengine.com

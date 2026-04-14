@@ -1,0 +1,42 @@
+# Audio streaming / music services — route through PROXY
+# Maintained by: @smyth
+
+# ═══ Spotify ═══
+domain:spotify.com
+domain:scdn.co
+domain:spotifycdn.com
+domain:spotifycdn.net
+domain:spotifyforartists.com
+domain:spotify-everywhere.com
+
+# ═══ Apple Music (some features geo-blocked) ═══
+# NOTE: Apple Music itself is fine in RF but some podcasts blocked
+# Keeping apple in direct, only blocking specific endpoints if needed
+
+# ═══ Tidal ═══
+domain:tidal.com
+domain:tidalhifi.com
+
+# ═══ Deezer ═══
+domain:deezer.com
+domain:dzcdn.net
+
+# ═══ SoundCloud ═══
+domain:soundcloud.com
+domain:sndcdn.com
+domain:sc-cdn.net
+
+# ═══ Pandora ═══
+domain:pandora.com
+
+# ═══ Audiomack ═══
+domain:audiomack.com
+
+# ═══ YouTube Music (separately, already covered via youtube geosite) ═══
+
+# ═══ Last.fm ═══
+domain:last.fm
+
+# ═══ Bandcamp ═══
+domain:bandcamp.com
+domain:bcbits.com

@@ -1,0 +1,85 @@
+name: Build geosite.dat
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - '.github/workflows/build.yml'
+  schedule:
+    # Daily at 03:00 UTC — picks up v2fly/domain-list-community updates
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout v2fly builder
+        uses: actions/checkout@v4
+        with:
+          repository: v2fly/domain-list-community
+          path: community
+          fetch-depth: 1
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: community/go.mod
+          cache: true
+          cache-dependency-path: community/go.sum
+
+      - name: Generate daily tag
+        run: |
+          echo "DAILY_TAG=$(date -u +%Y%m%d%H%M)" >> "$GITHUB_ENV"
+
+      - name: Build geosite.dat
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/out
+          mkdir -p /tmp/out
+          # Overlay our data/ on top of v2fly's community/data so we inherit
+          # their 1000+ categories (pinterest, youtube, etc.) but override
+          # with our own when names collide.
+          cp -a ./data/. community/data/
+          pushd community >/dev/null
+            go run ./ -outputdir=/tmp/out
+          popd >/dev/null
+          test -s /tmp/out/dlc.dat
+          mkdir -p release
+          cp -f /tmp/out/dlc.dat release/geosite.dat
+          ls -la release/
+
+      - name: Compute checksum
+        run: |
+          cd release
+          sha256sum geosite.dat > geosite.dat.sha256sum
+
+      - name: Commit release
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add release/geosite.dat release/geosite.dat.sha256sum
+          if git diff --cached --quiet; then
+            echo "No changes in build output; skipping commit."
+            exit 0
+          fi
+          git commit -m "build: geosite.dat $DAILY_TAG"
+          git push
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.DAILY_TAG }}
+          name: ${{ env.DAILY_TAG }}
+          files: |
+            release/geosite.dat
+            release/geosite.dat.sha256sum
+          generate_release_notes: false

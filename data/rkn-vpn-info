@@ -1,0 +1,30 @@
+# VPN information / knowledge sites — PROXY to read freely
+# Maintained by: @smyth
+
+# ═══ Proxy/VPN knowledge bases ═══
+domain:torproject.org
+domain:snowflake.torproject.org
+domain:tor.guru
+domain:protonvpn.com
+domain:proton.me
+domain:protonmail.com
+domain:mullvad.net
+domain:nordvpn.com
+domain:expressvpn.com
+domain:surfshark.com
+domain:ivpn.net
+domain:windscribe.com
+domain:psiphon3.com
+domain:psiphon.ca
+domain:cryptostorm.is
+domain:riseup.net
+domain:orbot.app
+
+# ═══ Censorship circumvention ═══
+domain:ooni.org
+domain:censorship.no
+domain:internetfreedom.ru
+
+# ═══ Chess (chess.com blocked for RF IPs sometimes) ═══
+domain:chess.com
+domain:chesscdn.com

@@ -1,0 +1,224 @@
+# RU banks — critical for anti-fraud (must route DIRECT)
+# Source: CBR registry + mobile app reverse engineering + user reports
+# Maintained by: @smyth
+
+# ─── Sberbank ecosystem ───
+domain:sberbank.ru
+domain:sber.ru
+domain:sbrf.ru
+domain:sbol.ru
+domain:sber.com
+domain:sber.world
+domain:sber.ws
+domain:sbercoin.com
+domain:sberid.ru
+domain:sberbankmobile.ru
+domain:sberbank.com
+domain:sberpay.ru
+domain:sberinvest.ru
+domain:sberbankinsurance.ru
+domain:sberhealth.ru
+domain:sbermarket.ru
+domain:sbermegamarket.ru
+domain:sber-solutions.com
+domain:sberbank-online.ru
+domain:sberdevices.ru
+domain:sberauto.com
+domain:sberbusiness.live
+domain:sberleasing.ru
+domain:sberapp.ru
+domain:sberjazz.ru
+
+# ─── T-Bank (ex-Tinkoff) ───
+domain:tinkoff.ru
+domain:tbank.ru
+domain:tcsbank.ru
+domain:acdn.tinkoff.ru
+domain:tbankinsurance.ru
+domain:t-bank.ru
+domain:cdn-tinkoff.ru
+domain:tbank-online.com
+domain:pulse.tinkoff.ru
+domain:tinkoffjournal.ru
+domain:journal.tinkoff.ru
+domain:brokerbtb.ru
+domain:tbank-mobile.ru
+domain:tlife.ru
+
+# ─── VTB ───
+domain:vtb.ru
+domain:vtb24.ru
+domain:vtb24.com
+domain:vtbf.ru
+domain:vtb.com
+domain:vtb-bank.in
+domain:online.vtb.ru
+domain:vtb.corp.ru
+domain:vtb.digital
+domain:vtbl.ru
+domain:vtb-russia.com
+domain:vtbstrana.ru
+domain:vtbcareer.com
+domain:vtb.promo
+domain:vtb.fut.ru
+
+# ─── Alfa-Bank ───
+domain:alfabank.ru
+domain:alfabank.com
+domain:alfabank.st
+domain:alfabank.by
+domain:alfabank.kz
+domain:alfadirect.ru
+domain:alfa-bank.com
+domain:alfa-bank.ru
+domain:alfamobile.alfabank.ru
+domain:alfaleasing.ru
+domain:alfastrah.ru
+domain:alfaprivate.com
+domain:alfa-finance.com
+domain:alfa-fx.com
+domain:alfaleasing.com
+domain:alfafuture.ru
+domain:alfafuture.com
+
+# ─── Gazprombank ───
+domain:gazprombank.ru
+domain:gpb.ru
+domain:gazprombank.tech
+domain:gpbmobile.ru
+domain:gazprompay.ru
+domain:sbpgpb.ru
+
+# ─── Raiffeisen ───
+domain:raiffeisen.ru
+domain:raif.ru
+domain:raiffeisenbank.ru
+domain:raiffeisen-direct.ru
+
+# ─── Rosbank ───
+domain:rosbank.ru
+domain:rosbank-online.ru
+
+# ─── Otkritie (now part of VTB but still has own domains) ───
+domain:open.ru
+domain:otkritie.com
+domain:openbroker.ru
+domain:open-insurance.ru
+
+# ─── MKB (Московский Кредитный Банк) ───
+domain:mkb.ru
+domain:bfa.ru
+
+# ─── PSB (Promsvyazbank) ───
+domain:psbank.ru
+domain:psbinvest.ru
+domain:psblog.ru
+
+# ─── Sovcombank ───
+domain:sovcombank.ru
+domain:sovcom.ru
+domain:halva-online.ru
+domain:halvacard.ru
+
+# ─── Pochta Bank ───
+domain:pochtabank.ru
+
+# ─── Uralsib ───
+domain:uralsib.ru
+domain:uralsib.com
+
+# ─── RSHB (Rosselkhozbank) ───
+domain:rshb.ru
+domain:rshb-insurance.com
+
+# ─── MTS Bank ───
+domain:mtsbank.ru
+domain:mtsdengi.ru
+
+# ─── Ozon Bank ───
+domain:ozonbank.ru
+domain:finance.ozon.ru
+
+# ─── YooMoney / Yandex.Money ───
+domain:yoomoney.ru
+domain:yoo.ru
+domain:yoobusiness.ru
+
+# ─── Modulbank ───
+domain:modulbank.ru
+
+# ─── Tochka ───
+domain:tochka.com
+domain:tochka-tech.com
+domain:tochkabank.ru
+
+# ─── Qiwi ───
+domain:qiwi.com
+domain:qiwi.ru
+domain:qiwi.com.br
+
+# ─── RNCB / Крымский банк ───
+domain:rncb.ru
+
+# ─── Renaissance ───
+domain:rencredit.ru
+
+# ─── Home Credit ───
+domain:homecredit.ru
+
+# ─── Rosselkhozbank Life ───
+domain:pogostrah.ru
+
+# ─── Yandex Bank ───
+domain:bank.yandex.ru
+domain:yandex-bank.net
+
+# ─── AK BARS ───
+domain:akbars.ru
+
+# ─── Zenit ───
+domain:zenit.ru
+domain:credit-zenit.ru
+domain:zenit-card.ru
+
+# ─── Uniastrum / Bank Vostok ───
+domain:bankvostok.ru
+
+# ─── Other мелкие/региональные (from CBR snapshot) ───
+domain:spvb.ru
+domain:baltbank.ru
+domain:banki.ru
+domain:bankline.ru
+domain:domclick.ru
+domain:gosuslugi.ru
+
+# ─── Payment systems ───
+domain:mir.ru
+domain:mirconnect.ru
+domain:mirpay.ru
+domain:mirpayonline.ru
+domain:nspk.ru
+domain:sbp.nspk.ru
+domain:cbr.ru
+domain:moex.com
+
+# ─── BKIs (credit bureaus) ───
+domain:nbki.ru
+domain:scoristo.ru
+domain:equifax.ru
+
+# ─── Investment brokers ───
+domain:broker.ru
+domain:finam.ru
+domain:bcs.ru
+domain:bcsexpress.ru
+
+# ─── Insurance ───
+domain:ingos.ru
+domain:ingosstrah.ru
+domain:renins.com
+domain:rosgosstrah.ru
+domain:rgs.ru
+domain:soglasie.ru
+domain:vsk.ru
+domain:alfastrahovanie.ru

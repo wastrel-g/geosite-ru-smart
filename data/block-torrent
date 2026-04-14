@@ -1,0 +1,53 @@
+# Block — torrent trackers and DHT servers (saves relay bandwidth + hoster TOS)
+# Maintained by: @smyth
+
+# ═══ Public BitTorrent trackers ═══
+domain:opentrackr.org
+domain:torrent.ubuntu.com
+domain:tracker.opentrackr.org
+domain:tracker.openbittorrent.com
+domain:tracker.coppersurfer.tk
+domain:tracker.leechers-paradise.org
+domain:tracker.internetwarriors.net
+domain:exodus.desync.com
+domain:tracker.cyberia.is
+domain:retracker.hotplug.ru
+domain:retracker.local
+domain:bt.t-ru.org
+domain:bt2.t-ru.org
+domain:bt3.t-ru.org
+domain:bt4.t-ru.org
+domain:bt.rutracker.cc
+domain:tracker.blutorrent.com
+domain:tracker.publicbt.com
+domain:tracker.ccc.de
+domain:9.rarbg.to
+
+# ═══ Torrent indexes (sites) ═══
+domain:rutracker.org
+domain:rutracker.net
+domain:rutracker.cc
+domain:rutor.info
+domain:rutor.org
+domain:thepiratebay.org
+domain:thepiratebay.se
+domain:1337x.to
+domain:1337x.st
+domain:yts.mx
+domain:yts.rs
+domain:eztv.re
+domain:eztv.wf
+domain:kickasstorrents.to
+domain:kat.am
+domain:limetorrents.info
+domain:torrentz2.eu
+domain:nnmclub.to
+domain:kinozal.tv
+domain:kinozal.me
+
+# ═══ DHT / magnet coordination ═══
+domain:router.bittorrent.com
+domain:dht.transmissionbt.com
+domain:router.utorrent.com
+domain:dht.libtorrent.org
+domain:dht.wifi.pps.jussieu.fr

@@ -1,0 +1,255 @@
+# RU scanners / anti-fraud / attribution — MUST route DIRECT
+# If these go through VPN, RF banking/marketplace apps flag the user
+#
+# Logic: these trackers embed their SDK into RF apps. When the app reports
+# telemetry from a foreign IP, anti-fraud scores spike → account freeze / 3DS / manual review.
+#
+# Maintained by: @smyth
+
+# ═══ Attribution trackers (install + session + anti-fraud) ═══
+
+# AppsFlyer — used by Сбер, Т-Банк, ВТБ, Альфа, Ozon, WB, Ozon Card
+domain:appsflyer.com
+domain:app-sdk.com
+domain:onelink.me
+domain:events.appsflyer.com
+domain:launches.appsflyer.com
+domain:register.appsflyer.com
+domain:conversions.appsflyer.com
+domain:dlsdk.appsflyer.com
+domain:validate.appsflyer.com
+domain:lp-cdn.appsflyer.com
+
+# Adjust — secondary attribution, used by some RF apps
+domain:adjust.com
+domain:app.adjust.com
+domain:app.adjust.net.in
+domain:adjust.io
+domain:s2s.adjust.com
+
+# Amplitude — product analytics (Сбер, WB, Кинопоиск etc.)
+domain:amplitude.com
+domain:api.amplitude.com
+domain:api.eu.amplitude.com
+domain:api2.amplitude.com
+
+# Branch.io — deep links + attribution
+domain:branch.io
+domain:app.link
+domain:bnc.lt
+
+# Singular
+domain:singular.net
+domain:api-gateway.singular.net
+
+# Mixpanel (some SaaS products)
+domain:mixpanel.com
+domain:api.mixpanel.com
+
+# Segment
+domain:segment.com
+domain:segment.io
+domain:api.segment.io
+
+# ═══ Anti-fraud providers ═══
+
+# Group-IB — TOP Russian anti-fraud (Сбер, ВТБ, Т-Банк, Альфа)
+domain:group-ib.com
+domain:gibraltar.group-ib.com
+domain:gib.group
+domain:fraudhunter.group-ib.com
+
+# Oz Forensics
+domain:ozforensics.com
+
+# Sift
+domain:sift.com
+domain:siftscience.com
+domain:cdn.siftscience.com
+domain:api.siftscience.com
+
+# Kount
+domain:kount.com
+domain:kaxy.com
+
+# Forter
+domain:forter.com
+
+# Device fingerprinting
+domain:fingerprint.com
+domain:fpjscdn.net
+domain:fingerprintjs.com
+domain:api.fpjs.io
+
+# RF-specific device reputation
+domain:fraudscore.mobi
+domain:factmap.com
+domain:pay-touch.com
+
+# ═══ Captchas (RF banks use these to verify humans) ═══
+
+# Google reCAPTCHA v2/v3 — used by Сбер, Госуслуги, WB
+domain:recaptcha.net
+domain:google.com
+domain:gstatic.com
+
+# hCaptcha — used by some RF banks
+domain:hcaptcha.com
+domain:api.hcaptcha.com
+domain:newassets.hcaptcha.com
+
+# Cloudflare Turnstile (used by some РФ SaaS)
+domain:challenges.cloudflare.com
+
+# Yandex SmartCaptcha
+domain:captcha-api.yandex.ru
+domain:smartcaptcha.yandex.com
+
+# ═══ Push notifications infrastructure (must work for app to be "alive") ═══
+
+# Firebase Cloud Messaging — 90%+ РФ apps rely on this for push
+domain:fcm.googleapis.com
+domain:mtalk.google.com
+domain:mtalk4.google.com
+domain:alt1-mtalk.google.com
+domain:alt2-mtalk.google.com
+domain:alt3-mtalk.google.com
+domain:alt4-mtalk.google.com
+domain:alt5-mtalk.google.com
+domain:alt6-mtalk.google.com
+domain:alt7-mtalk.google.com
+domain:alt8-mtalk.google.com
+domain:android.googleapis.com
+domain:firebaseinstallations.googleapis.com
+domain:firebaselogging.googleapis.com
+domain:firebase-settings.crashlytics.com
+domain:firebase.google.com
+domain:firebaseremoteconfig.googleapis.com
+domain:firebase-public.firebaseio.com
+domain:firebaseio.com
+domain:firebaseapp.com
+domain:firebasestorage.googleapis.com
+domain:firebasedynamiclinks.googleapis.com
+
+# Apple Push Notifications — для iOS
+domain:push.apple.com
+domain:courier.push.apple.com
+
+# Huawei Push (Honor/Huawei devices)
+domain:push.hicloud.com
+domain:push.cloud.huawei.com
+domain:hms.dbankcloud.com
+
+# Xiaomi Push (MIUI devices)
+domain:api.cloud.mi.com
+domain:mipush.xiaomi.com
+domain:resolver.msg.xiaomi.net
+
+# Samsung Push
+domain:push.samsungosp.com
+domain:push-api.samsungosp.com
+
+# ═══ Crash reporting (if broken, apps may refuse to start) ═══
+domain:crashlytics.com
+domain:sentry.io
+domain:app.bugsnag.com
+domain:notify.bugsnag.com
+domain:sessions.bugsnag.com
+
+# ═══ Analytics (Google/Yandex/RF) ═══
+
+# Google Analytics — used by Сбер, WB, Ozon, Тинькофф
+domain:google-analytics.com
+domain:analytics.google.com
+domain:googletagmanager.com
+domain:googletagservices.com
+domain:www.google-analytics.com
+domain:stats.g.doubleclick.net
+domain:ssl.google-analytics.com
+
+# Yandex Metrica (AppMetrica separately)
+domain:metrica.yandex.com
+domain:metrica.yandex.ru
+domain:mc.yandex.com
+domain:mc.yandex.ru
+domain:mc.yandex.az
+domain:mc.yandex.by
+domain:mc.yandex.com.am
+domain:mc.yandex.com.ge
+domain:mc.yandex.com.tr
+domain:mc.yandex.co.il
+domain:mc.yandex.ee
+domain:mc.yandex.fi
+domain:mc.yandex.kg
+domain:mc.yandex.kz
+domain:mc.yandex.lt
+domain:mc.yandex.lv
+domain:mc.yandex.md
+domain:mc.yandex.tj
+domain:mc.yandex.tm
+domain:mc.yandex.uz
+domain:metrika.yandex.net
+domain:yandexmetrica.com
+domain:yandexmetrica.net
+
+# Yandex AppMetrica
+domain:appmetrica.io
+domain:appmetrica.yandex.com
+domain:appmetrica.yandex.ru
+domain:appmetrica.yandex.net
+domain:startup.mobile.yandex.net
+domain:report.appmetrica.yandex.net
+domain:startup.mobile.yandex.net
+
+# Mail.ru MyTracker
+domain:mytracker.mail.ru
+domain:rs.mail.ru
+domain:trackeredia.mail.ru
+domain:mrtrck.com
+domain:top-fwz1.mail.ru
+domain:top.mail.ru
+
+# Rambler Top
+domain:top100.rambler.ru
+domain:counter.rambler.ru
+
+# Yandex Radar
+domain:radar.yandex.ru
+
+# Huawei Analytics
+domain:huawei-analytics.com
+domain:hianalytics.com
+domain:metrics.data.hicloud.com
+
+# Xiaomi Analytics
+domain:tracking.miui.com
+domain:data.mistat.xiaomi.com
+domain:data.mistat.intl.xiaomi.com
+
+# ═══ Web chat widgets (banks use these for support) ═══
+domain:webim.ru
+domain:jivo.ru
+domain:jivochat.com
+domain:jivosite.com
+domain:usedesk.ru
+domain:usedocs.com
+domain:livechatinc.com
+domain:intercomcdn.com
+domain:intercom.io
+domain:zopim.com
+domain:zendesk.com
+domain:zdassets.com
+domain:infobip.com
+domain:dialogflow.com
+domain:zcdn.com
+
+# ═══ E-signature / notarization (RF banks require these) ═══
+domain:goskey.ru
+domain:cryptopro.ru
+domain:kontur.ru
+domain:kontur-ca.ru
+domain:nalog.ru
+domain:uc1.nalog.ru
+domain:iecp.ru
+domain:reestr-pki.ru
+domain:cpca.ru

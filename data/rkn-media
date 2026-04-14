@@ -1,0 +1,104 @@
+# RKN-blocked Western media / news — route through PROXY
+# Maintained by: @smyth
+
+# ═══ UK ═══
+domain:bbc.com
+domain:bbc.co.uk
+domain:bbci.co.uk
+domain:bbcrussian.com
+
+# ═══ Germany ═══
+domain:dw.com
+domain:deutschewelle.de
+
+# ═══ USA ═══
+domain:nytimes.com
+domain:nyt.com
+domain:nytimes.cn
+domain:washingtonpost.com
+domain:wsj.com
+domain:cnn.com
+domain:cnn.io
+domain:cbsnews.com
+domain:nbcnews.com
+domain:abcnews.go.com
+domain:foxnews.com
+domain:bloomberg.com
+domain:bloombergquint.com
+domain:reuters.com
+domain:usatoday.com
+domain:npr.org
+
+# ═══ RFE/RL ═══
+domain:rferl.org
+domain:svoboda.org
+domain:azathabar.com
+domain:currenttime.tv
+domain:krymr.com
+domain:idelreal.org
+domain:sibreal.org
+domain:severreal.org
+
+# ═══ VOA / US Gov media ═══
+domain:voanews.com
+domain:voa.gov
+
+# ═══ Independent Russian-language media (banned) ═══
+domain:meduza.io
+domain:novayagazeta.eu
+domain:novayagazeta.ru
+domain:theins.ru
+domain:theins.press
+domain:republic.ru
+domain:rosbalt.ru
+domain:mbk.news
+domain:mbk-news.appspot.com
+domain:znak.com
+domain:proekt.media
+domain:istories.media
+domain:agents.media
+domain:echo.msk.ru
+domain:echofm.online
+domain:tvrain.ru
+domain:tvrain.tv
+domain:tvrain.info
+domain:otr-online.ru
+domain:bazzfeed.com
+domain:bazamedia.ru
+domain:mediazona.ca
+domain:zona.media
+domain:rain.tv
+domain:currenttime.tv
+
+# ═══ UK Russian-language ═══
+domain:theguardian.com
+domain:observer.com
+
+# ═══ German Russian-language ═══
+# dw.com already covered above
+domain:spiegel.de
+domain:sueddeutsche.de
+domain:zeit.de
+domain:faz.net
+
+# ═══ French ═══
+domain:lemonde.fr
+domain:liberation.fr
+domain:france24.com
+domain:rfi.fr
+
+# ═══ Radio ═══
+domain:rferl.org
+domain:radio.by
+domain:svaboda.org
+
+# ═══ Encyclopedia (partially blocked) ═══
+domain:wikileaks.org
+
+# ═══ Anti-government Russian-language blogs ═══
+domain:navalny.com
+domain:acf.international
+
+# ═══ Others historically blocked ═══
+domain:grani.ru
+domain:ej.ru

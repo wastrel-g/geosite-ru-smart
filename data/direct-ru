@@ -1,0 +1,26 @@
+# Composite: everything that should go DIRECT for RU users
+# Include this single category in your routing config's DirectSites
+# Maintained by: @smyth
+
+include:private
+include:ru-banks
+include:ru-scanners
+include:ru-ipcheck
+include:ru-gov
+include:ru-ecosystem
+include:ru-marketplaces
+include:ru-games
+include:ru-apple-push
+
+# v2fly stock includes (bandwidth savers — updates/docs direct)
+include:microsoft
+include:apple
+include:steam
+include:twitch
+
+# Keep these for RF gaming:
+include:epicgames
+include:riot
+include:origin
+include:escapefromtarkov
+include:faceit

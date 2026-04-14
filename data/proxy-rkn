@@ -1,0 +1,16 @@
+# Composite: everything that should go through PROXY (RKN-blocked or unstable in RF)
+# Include this single category in your routing config's ProxySites
+# Maintained by: @smyth
+
+include:rkn-social
+include:rkn-media
+include:rkn-ai
+include:rkn-audio
+include:rkn-vpn-info
+# include:rkn-adult       # uncomment if you want to route adult sites
+
+# v2fly stock — RKN-blocked or unstable
+include:youtube
+include:telegram
+include:google-play
+include:github

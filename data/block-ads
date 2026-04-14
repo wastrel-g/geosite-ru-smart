@@ -1,0 +1,65 @@
+# Block — web ads (NON-anti-fraud-critical)
+# Maintained by: @smyth
+# Note: we do NOT block AppsFlyer/Firebase/Adjust etc. because they're required by RF apps
+
+# ═══ Ad networks ═══
+domain:doubleclick.net
+domain:googleadservices.com
+domain:googlesyndication.com
+domain:googletagservices.com
+domain:adsystem.com
+domain:adservice.google.com
+domain:adnxs.com
+domain:adcolony.com
+domain:admob.com
+domain:advertising.com
+domain:moatads.com
+domain:scorecardresearch.com
+domain:quantserve.com
+domain:imrworldwide.com
+domain:outbrain.com
+domain:taboola.com
+domain:criteo.com
+domain:criteo.net
+domain:rubiconproject.com
+domain:pubmatic.com
+domain:openx.net
+domain:adform.net
+domain:adtech.com
+domain:revcontent.com
+domain:mgid.com
+domain:yieldmo.com
+domain:advertising.com
+
+# ═══ Windows telemetry ═══
+domain:settings-win.data.microsoft.com
+domain:telemetry.microsoft.com
+domain:vortex.data.microsoft.com
+domain:watson.microsoft.com
+domain:telecommand.telemetry.microsoft.com
+domain:oca.telemetry.microsoft.com
+domain:sqm.telemetry.microsoft.com
+domain:spynet2.microsoft.com
+domain:spynetalert.microsoft.com
+domain:spynet.microsoft.com
+domain:v10.vortex-win.data.microsoft.com
+
+# ═══ Known trackers NOT used by RF banking apps ═══
+domain:hotjar.com
+domain:fullstory.com
+domain:clicktale.net
+domain:inspectlet.com
+domain:smartlook.com
+domain:logrocket.com
+domain:crazyegg.com
+domain:mouseflow.com
+
+# ═══ Mail.ru specific ads (not trackers used by banks) ═══
+domain:ad.mail.ru
+domain:alt-ad.mail.ru
+domain:an.yandex.ru
+
+# ═══ Yandex direct ads ═══
+domain:awaps.yandex.net
+domain:banners.adfox.ru
+domain:adfox.yandex.ru

@@ -1,0 +1,86 @@
+# RKN-blocked social / messaging — route through PROXY
+# Maintained by: @smyth
+
+# ═══ Meta (Instagram, Facebook, WhatsApp, Threads) ═══
+domain:instagram.com
+domain:cdninstagram.com
+domain:instagramapp.com
+domain:ig.me
+domain:facebook.com
+domain:fbcdn.net
+domain:fbsbx.com
+domain:fb.com
+domain:fb.watch
+domain:fbcdn-profile-a.akamaihd.net
+domain:meta.com
+domain:metaai.com
+domain:messenger.com
+domain:whatsapp.com
+domain:whatsapp.net
+domain:wa.me
+domain:whatsappbrand.com
+domain:threads.net
+domain:threads.com
+
+# ═══ X (ex-Twitter) ═══
+domain:x.com
+domain:twitter.com
+domain:twimg.com
+domain:t.co
+domain:twitterusercontent.com
+domain:pbs.twimg.com
+domain:video.twimg.com
+
+# ═══ LinkedIn ═══
+domain:linkedin.com
+domain:licdn.com
+domain:lnkd.in
+
+# ═══ Discord ═══
+domain:discord.com
+domain:discord.gg
+domain:discord.gift
+domain:discord.media
+domain:discordapp.com
+domain:discordapp.net
+domain:discordstatus.com
+domain:discord.dev
+
+# ═══ Signal ═══
+domain:signal.org
+domain:signalusers.org
+domain:signal.art
+
+# ═══ TikTok ═══
+domain:tiktok.com
+domain:tiktokcdn.com
+domain:tiktokv.com
+domain:musical.ly
+domain:tiktokcdn-us.com
+domain:tiktokstatic.com
+domain:byteoversea.com
+domain:tiktok-cdn.com
+
+# ═══ Snapchat ═══
+domain:snapchat.com
+domain:sc-cdn.net
+domain:snap.com
+
+# ═══ Other blocked messengers ═══
+domain:viber.com
+domain:line.me
+domain:wechat.com
+domain:weixin.qq.com
+
+# ═══ Reddit ═══
+domain:reddit.com
+domain:redd.it
+domain:redditmedia.com
+domain:redditstatic.com
+
+# ═══ Medium ═══
+domain:medium.com
+domain:miro.medium.com
+
+# ═══ Pinterest (РКН enforced in 2024) ═══
+include:pinterest

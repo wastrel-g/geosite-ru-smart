@@ -1,0 +1,18 @@
+# Private / local — always DIRECT
+# Maintained by: @smyth
+
+# ═══ Loopback ═══
+domain:localhost
+full:localhost
+
+# ═══ Private TLDs ═══
+domain:lan
+domain:local
+domain:home
+domain:internal
+domain:intranet
+domain:corp
+domain:private
+
+# ═══ mDNS ═══
+domain:local

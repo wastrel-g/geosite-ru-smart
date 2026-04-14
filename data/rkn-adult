@@ -1,0 +1,27 @@
+# Adult / porn sites blocked by RKN — route through PROXY
+# Maintained by: @smyth
+# Note: comment out this category if you don't want to route such traffic
+
+# ═══ Major blocked adult sites ═══
+domain:pornhub.com
+domain:phncdn.com
+domain:xvideos.com
+domain:xvideos-cdn.com
+domain:xnxx.com
+domain:xhamster.com
+domain:xhcdn.com
+domain:youporn.com
+domain:ypncdn.com
+domain:redtube.com
+domain:rdtcdn.com
+domain:tube8.com
+domain:brazzers.com
+domain:onlyfans.com
+domain:onlyfansassets.com
+domain:fansly.com
+domain:chaturbate.com
+domain:cb.dev
+domain:myfreecams.com
+domain:stripchat.com
+domain:camsoda.com
+domain:bongacams.com

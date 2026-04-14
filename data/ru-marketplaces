@@ -1,0 +1,113 @@
+# RU marketplaces — route DIRECT (anti-fraud critical)
+# Maintained by: @smyth
+
+# ═══ Ozon ═══
+domain:ozon.ru
+domain:ozone.ru
+domain:o3.ru
+domain:ocdn.ru
+domain:ozonbank.ru
+domain:ozonusercontent.com
+domain:ozon.travel
+
+# ═══ Wildberries ═══
+domain:wildberries.ru
+domain:wb.ru
+domain:wbstatic.net
+domain:wbbasket.ru
+domain:wbbasket.net
+domain:wbstatic.net
+
+# ═══ Avito ═══
+domain:avito.ru
+domain:avito.st
+domain:avito-cdn.ru
+domain:avito-mobile.ru
+
+# ═══ Megamarket / SberMegaMarket ═══
+domain:megamarket.ru
+domain:megamarket.tech
+domain:sbermegamarket.ru
+
+# ═══ Yandex Market ═══
+domain:market.yandex.ru
+domain:beru.ru
+domain:yandexmarket.ru
+
+# ═══ KazanExpress / Uzum ═══
+domain:kazanexpress.ru
+domain:uzum.uz
+
+# ═══ Lamoda ═══
+domain:lamoda.ru
+domain:lamoda.kz
+domain:lamoda.by
+
+# ═══ Kuper (ex-SberMarket) ═══
+domain:kuper.ru
+domain:sbermarket.ru
+
+# ═══ Yamarket / X5 / Perekrestok ═══
+domain:perekrestok.ru
+domain:5ka.ru
+domain:5post.market
+domain:chizhik.club
+domain:fivepost.ru
+domain:vprok.ru
+domain:x5.ru
+domain:x5.tech
+domain:x5club.ru
+domain:x5id.ru
+domain:x5l.ru
+domain:x5paket.ru
+domain:x5q.ru
+domain:tsx.x5static.net
+
+# ═══ Magnit / Lenta / Dixy / Victoria ═══
+domain:magnit.ru
+domain:lenta.com
+domain:dixy.ru
+domain:victoria-group.ru
+domain:vkusvill.ru
+
+# ═══ DNS-shop / DNS / Citilink / Eldorado / M.Video ═══
+domain:dns-shop.ru
+domain:citilink.ru
+domain:eldorado.ru
+domain:mvideo.ru
+
+# ═══ Auto ═══
+domain:auto.ru
+domain:avtoto.ru
+domain:drom.ru
+domain:avtocod.ru
+
+# ═══ Leman Pro / LemanaPro (ex-Leroy Merlin) ═══
+domain:lemanapro.ru
+domain:lmru.tech
+
+# ═══ Fix Price ═══
+domain:fix-price.com
+
+# ═══ Samokat ═══
+domain:samokat.ru
+
+# ═══ Delivery ═══
+domain:delivery-club.ru
+domain:dodopizza.ru
+
+# ═══ Yandex Plus / Subscriptions ═══
+domain:plus.yandex.ru
+
+# ═══ Apteki ═══
+domain:apteka.ru
+domain:eapteka.ru
+domain:366.ru
+domain:gorzdrav.org
+
+# ═══ Small but common ═══
+domain:whoosh.bike
+domain:citydrive.ru
+domain:onetwotrip.com
+domain:ostrovok.ru
+domain:level.travel

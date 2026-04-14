@@ -1,0 +1,4 @@
+community/
+/tmp/
+*.dat.bak
+.DS_Store

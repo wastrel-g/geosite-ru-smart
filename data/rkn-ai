@@ -1,0 +1,103 @@
+# AI services blocked or unstable in RF — route through PROXY
+# Maintained by: @smyth
+
+# ═══ OpenAI / ChatGPT ═══
+domain:openai.com
+domain:chat.openai.com
+domain:chatgpt.com
+domain:oaistatic.com
+domain:oaiusercontent.com
+domain:auth.openai.com
+domain:api.openai.com
+domain:platform.openai.com
+domain:sora.com
+
+# ═══ Anthropic / Claude ═══
+domain:anthropic.com
+domain:claude.ai
+domain:console.anthropic.com
+domain:api.anthropic.com
+
+# ═══ Google AI ═══
+domain:gemini.google.com
+domain:bard.google.com
+domain:makersuite.google.com
+domain:ai.google.dev
+domain:aistudio.google.com
+domain:generativelanguage.googleapis.com
+
+# ═══ Microsoft Copilot / Bing Chat ═══
+domain:copilot.microsoft.com
+domain:copilotstudio.microsoft.com
+
+# ═══ Meta AI ═══
+domain:meta.ai
+domain:ai.meta.com
+
+# ═══ xAI / Grok ═══
+domain:x.ai
+domain:grok.com
+
+# ═══ Mistral ═══
+domain:mistral.ai
+domain:console.mistral.ai
+
+# ═══ Perplexity ═══
+domain:perplexity.ai
+
+# ═══ Cohere ═══
+domain:cohere.com
+domain:cohere.ai
+
+# ═══ DeepSeek ═══
+domain:deepseek.com
+
+# ═══ Other notable ═══
+domain:you.com
+domain:character.ai
+domain:poe.com
+domain:inflection.ai
+domain:pi.ai
+domain:replika.ai
+domain:jasper.ai
+domain:writesonic.com
+
+# ═══ Image generation ═══
+domain:midjourney.com
+domain:stability.ai
+domain:leonardo.ai
+domain:ideogram.ai
+domain:runwayml.com
+domain:hedra.com
+
+# ═══ Voice / video AI ═══
+domain:elevenlabs.io
+domain:heygen.com
+domain:synthesia.io
+domain:descript.com
+domain:suno.com
+domain:udio.com
+
+# ═══ Coding AI ═══
+domain:cursor.sh
+domain:cursor.com
+domain:codeium.com
+domain:windsurf.com
+domain:tabnine.com
+domain:replit.com
+domain:sourcegraph.com
+domain:v0.app
+
+# ═══ HuggingFace ═══
+domain:huggingface.co
+domain:hf.co
+domain:huggingface.com
+
+# ═══ AI infra ═══
+domain:together.ai
+domain:together.xyz
+domain:groq.com
+domain:openrouter.ai
+domain:fal.ai
+domain:replicate.com
+domain:modal.com
